@@ -9,36 +9,36 @@ typedef BaseAttributes = {
 	
 typedef PathAttr = {
 	> BaseAttributes,
-	var d(get, never):String;
-	@:optional var pathLength(get, never):String;
+	var d(default, never):String;
+	@:optional var pathLength(default, never):String;
 }
 
 typedef PolygonAttr = {
 	> BaseAttributes,
-	var points(get, never):String;
+	var points(default, never):String;
 }
 
 typedef RectAttr = {
 	> BaseAttributes,
-	@:optional var x(get, never):String;
-	@:optional var y(get, never):String;
-	var width(get, never):String;
-	var height(get, never):String;
-	@:optional var rx(get, never):String;
-	@:optional var ry(get, never):String;
+	@:optional var x(default, never):String;
+	@:optional var y(default, never):String;
+	var width(default, never):String;
+	var height(default, never):String;
+	@:optional var rx(default, never):String;
+	@:optional var ry(default, never):String;
 }
 
 typedef CircleAttr = {
 	> BaseAttributes,
-	@:optional var cx(get, never):String;
-	@:optional var cy(get, never):String;
-	var r(get, never):String;
+	@:optional var cx(default, never):String;
+	@:optional var cy(default, never):String;
+	var r(default, never):String;
 }
 
 typedef EllipseAttr = {
 	> BaseAttributes,
-	@:optional var cx(get, never):String;
-	@:optional var cy(get, never):String;
-	var rx(get, never):String;
-	var ry(get, never):String;
+	@:optional var cx(default, never):String;
+	@:optional var cy(default, never):String;
+	var rx(default, never):String;
+	var ry(default, never):String;
 }
