@@ -1,14 +1,14 @@
 {
-  "name": "tink_svgspec",
-  "license": "MIT",
-  "tags": [
-    "svg"
-  ],
-  "classPath": "src",
-  "contributors": [
-    "kevinresol,back2dos"
-  ],
-  "releasenote": "initial release",
-  "version": "0.0.0",
-  "dependencies": {}
+	"name": "tink_svgspec",
+	"classPath": "src",
+	"dependencies": {},
+	"contributors": [
+		"kevinresol,back2dos"
+	],
+	"version": "0.0.0",
+	"releasenote": "Initial release.",
+	"tags": [
+		"svg"
+	],
+	"license": "MIT"
 }
