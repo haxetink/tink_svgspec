@@ -3,7 +3,8 @@
 	"classPath": "src",
 	"dependencies": {},
 	"contributors": [
-		"kevinresol,back2dos"
+		"kevinresol",
+		"back2dos"
 	],
 	"version": "0.0.0",
 	"releasenote": "Initial release.",
