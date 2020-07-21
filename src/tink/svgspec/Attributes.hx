@@ -42,3 +42,12 @@ typedef EllipseAttr = {
 	var rx(default, never):String;
 	var ry(default, never):String;
 }
+
+typedef UseAttr = {
+	> BaseAttributes,
+    @:optional var href(default, never):String;  // xlink:href is also a thing, but deprecated 
+    @:optional var x(default, never):String;
+    @:optional var y(default, never):String;
+    @:optional var width(default, never):String;
+    @:optional var height(default, never):String;
+}
