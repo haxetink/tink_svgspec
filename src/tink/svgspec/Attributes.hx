@@ -6,7 +6,7 @@ typedef BaseAttributes = {
 	> PresentationAttributes,
 	@:optional var transform(default, never):String;
 }
-	
+
 typedef PathAttr = {
 	> BaseAttributes,
 	var d(default, never):String;

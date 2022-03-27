@@ -17,15 +17,16 @@ typedef PresentationAttributes = {
 	> Viewports,
 }
 private typedef Color = {
+	@:optional var opacity(default, never):String;
 	@:optional var color(default, never):String;
 	@:optional var colorInterpolation(default, never):String;
-	
+
 }
 private typedef Containers = {
-	
+
 }
 private typedef FeFlood = {
-	
+
 }
 private typedef FillStroke = {
 	@:optional var fill(default, never):String;
@@ -39,35 +40,35 @@ private typedef FillStroke = {
 	@:optional var strokeMiterlimit(default, never):String;
 	@:optional var strokeOpacity(default, never):String;
 	@:optional var strokeWidth(default, never):String;
-	
+
 }
 private typedef FilterPrimitives = {
-	
+
 }
 private typedef FontSpecification = {
-	
+
 }
 private typedef Gradients = {
-	
+
 }
 private typedef Graphics = {
-	
+
 }
 private typedef Images = {
-	
+
 }
 private typedef LightingEffects = {
-	
+
 }
 private typedef Markers = {
-	
+
 }
 private typedef TextContentElements = {
-	
+
 }
 private typedef TextElements = {
-	
+
 }
 private typedef Viewports = {
-	
+
 }
