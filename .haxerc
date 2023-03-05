@@ -1,1 +1,4 @@
-{"version":"4.0.0-rc.1","resolveLibs":"scoped"}
+{
+  "version": "4.2.5",
+  "resolveLibs": "scoped"
+}
